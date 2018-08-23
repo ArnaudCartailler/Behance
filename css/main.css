@@ -97,18 +97,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*navbar*/
 
+nav{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: black;
+  position: fixed;
+}
 
+nav a{
+  margin-left: 10px;
+}
 
+nav .email{
+  background-color: #0056fc;
+  font-size: 14px;
+  border-radius: 15px;
+  color: white;
+}
 
+nav .facebook{
+  background-color: #3b5998;
+  padding : 5;
+  border-radius : 20px;
+}
 
+nav .google{
+  background-color: white;
+  padding : 5;
+  border-radius : 20px;
+}
 
+nav .google i:hover{
+  color : red;
+  transition : 0.8s;
+}
 
+nav .email:hover{
+  color:white;
+  background-color: #3b5998;
+  transition: 0.5s;
+}
 
+nav a:hover{
+  color:white!important;
+}
 
+/*undernav*/
 
+.undernav{
+  border-bottom: 2px solid #f5f5f5;
+}
+.undernav ul li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
 
+.undernav ul li a{
+  color : black!important;
+}
 
+.undernav ul li span{
+  color: #0057ff!important;
+}
+
+/*Big title*/
+
+.big-title{
+  text-align: center;
+  line-height: 0px;
+  color : black;
+}
+
+.big-title h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.big-title p{
+  font-size : 28px;
+}
 
 
 

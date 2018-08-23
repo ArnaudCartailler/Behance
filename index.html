@@ -21,12 +21,12 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom pt-2 pb-2">
     <a class="navbar-brand text-light" href="#">Behance</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse d-flex justify-content-end ml-5" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link text-light" href="#">Discover <span class="sr-only">(current)</span></a>
@@ -38,9 +38,17 @@
           <a class="nav-link text-muted" href="#">Jobs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Sign Up With Email</a>
+          <a class="nav-link text-light email" href="#">Sign Up With Email</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link facebook ml-4" href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+        <li class="nav-item">
+        <a class="nav-link google" href="#"><i class="fab fa-google"></i></a>
         </li>
       </ul>
+    </div>
+<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
       <ul class="navbar-nav last">
         <li>
           <a class="nav-link text-muted" href="#"><i class="fas fa-search"></i></a>
@@ -58,6 +66,27 @@
     </div>
   </nav>
 
+  <div class="undernav d-flex justify-content-center m-0">
+    <ul class="under-nav m-3">
+      <li class="under-item active">
+        <a class="under-link" href="#">Best of Behance</a>
+      </li>
+      <li class="under-item">
+        <a class="under-link" href="#">Curated Galleries </a>
+      </li>
+      <li class="under-item">
+        <a class="under-link" href="#"><span>Creative Tools</span></a>
+      </li>
+      <li class="under-item">
+        <a class="under-link" href="#">Schools & Organizations </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="big-title">
+    <h1>Made with Creative Cloud</h1>
+    <p>Hand-picked collections of the best work made with our tools</p>
+  </div>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
